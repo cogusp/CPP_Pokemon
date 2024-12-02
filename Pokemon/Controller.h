@@ -15,12 +15,12 @@
 class Controller
 {
 private:
-	Render* mMap;
+	Render* mRender;
 
 public:
 	Controller();
 	~Controller();
 
 	int KeyControl();
-	void Move(int* x, int* y);
+	void Move();
 };

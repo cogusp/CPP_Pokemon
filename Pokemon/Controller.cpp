@@ -2,14 +2,14 @@
 
 Controller::Controller()
 {
-	mMap = new Render();
+	mRender = new Render();
 }
 
 Controller::~Controller()
 {
-	delete mMap;
-
-	mMap = nullptr;
+	delete mRender;
+	
+	mRender = nullptr;
 }
 
 int Controller::KeyControl()
@@ -45,23 +45,23 @@ int Controller::KeyControl()
 	}
 }
 
-void Controller::Move(int* x, int* y)
+void Controller::Move()
 {
 	while (true)
 	{
 		switch (KeyControl())	// 키 입력
 		{
 		case UP:
-			y -= 1;	// y축으로 -1 이동
+			mRender->DrawPlayer(0, -1);	// y축으로 -1 이동
 			break;
 		case DOWN:
-			y += 1;	// y축으로 1 이동
+			mRender->DrawPlayer(0, 1);	// y축으로 1 이동
 			break;
 		case RIGHT:
-			x += 1;	// x축으로 1 이동
+			mRender->DrawPlayer(1, 0);	// x축으로 1 이동
 			break;
 		case LEFT:
-			x -= 1;	// x축으로 -1 이동
+			mRender->DrawPlayer(-1, 0);	// x축으로 -1 이동
 			break;
 		}
 	}

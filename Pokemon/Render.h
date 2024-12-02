@@ -2,24 +2,34 @@
 #include <Windows.h>
 #include <iostream>
 #include <conio.h>
-#include "Player.h"
-//#include <vector>
+
+#define MAP_WIDTH  55
+#define MAP_HEIGHT 20
+
+struct Position
+{
+	int x = 0;
+	int y = 0;
+};
 
 class Render
 {
 private:
-	//std::vector<char[20][29]> mapList;
-	//char map[20][29];
-	bool isFirst = true;
-	Player::Position* sPosition;
+	Position* sPosition;
+	bool isFirst;
+	char temp;
 
 public:
+	Render();
+	~Render();
 
 	void Init();
 	void Gotoxy(int x, int y);
 
-	void DrawPlayer(int, int);
-	void DrawMap();
-	void Draw(char ch)
-};
+	char GetCurrnetMap();				// 현재 위치 맵
+	Position GetPlayerPos();			// 현재 플레이어 위치
 
+	void DrawPlayer(int x, int y);
+	void DrawMap();
+	void Draw(char ch);
+};

@@ -71,7 +71,14 @@ void GameManager::SetTutorialPage()
 
 void GameManager::SetMainPage()
 {
-	mMain->GameLoop();
+	switch (mMain->GameLoop())
+	{
+	case 1:
+		SetPage(Pages::SHOP);
+		break;
+	case 2:
+		break;
+	}
 }
 
 void GameManager::SetMainMenu()

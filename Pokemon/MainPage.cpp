@@ -3,6 +3,8 @@
 MainPage::MainPage()
 {
 	mRender = new Render();
+	mRender->Init();
+	isPlay = 0;
 }
 
 MainPage::~MainPage()
@@ -13,18 +15,34 @@ MainPage::~MainPage()
 
 int MainPage::GameLoop()
 {
-	int x, y;
-
 	mRender->DrawMap();
-	mRender->DrawPlayer();
 
 	while (isPlay == 0)
 	{
-		if (KeyControl())
+		if (KeyControl() != 0)
 		{
-			Move(&x, &y);
+			switch (KeyControl())
+			{
+			case UP:
+				mRender->DrawPlayer(0, -1);
+				break;
+			case DOWN:
+				mRender->DrawPlayer(0, 1);
+				break;
+			case RIGHT:
+				mRender->DrawPlayer(1, 0);
+				break;
+			case LEFT:
+				mRender->DrawPlayer(-1, 0);
+				break;
+			}
+
+			if (mRender->GetCurrnetMap() == 's')
+			{
+				isPlay = 1;
+			}
 		}
 	}
 
-	return 0;
+	return isPlay;
 }
