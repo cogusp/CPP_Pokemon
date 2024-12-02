@@ -33,5 +33,5 @@ void TutorialPage::ShowGameInfo()
 	std::cout << mPlayer->GetName() << "... 좋은 이름이군!" << std::endl;
 	std::cout << "행운을 비네!" << std::endl;
 
-	Sleep(3000);
+	Sleep(2000);
 }

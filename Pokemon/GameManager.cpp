@@ -3,8 +3,7 @@
 GameManager::GameManager()
 {
 	//mPlayer = new Player();
-	//mShop = new Shop();
-	
+	mShop = new Shop();
 	mMainMenu = new MainMenu();
 	mTutorial = new TutorialPage();
 	mMain = new MainPage();
@@ -16,15 +15,13 @@ GameManager::GameManager()
 GameManager::~GameManager()
 {
 	//delete mPlayer;
-	//delete mShop;
-
+	delete mShop;
 	delete mMainMenu;
 	delete mTutorial;
 	delete mMain;
 	 
 	//mPlayer = nullptr;
-	//mShop = nullptr;
-
+	mShop = nullptr;
 	mMainMenu = nullptr;
 	mTutorial = nullptr;
 	mMain = nullptr;
@@ -114,4 +111,7 @@ void GameManager::SetShopPage()
 	//mShop->BuyItem(select - 1, mCoin);
 
 	//SetPage(Pages::INVENTORY);
+
+	system("cls");
+	mShop->ShowItems();
 }

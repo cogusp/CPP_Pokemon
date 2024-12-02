@@ -1,18 +1,19 @@
 #pragma once
-#include "Map.h"
+#include "Render.h"
 #include "Controller.h"
 
 class MainPage : public Controller
 {
 private:
-	Map* mMap;
+	Render* mRender;
+	
 
 public:
 	MainPage();
 	~MainPage();
 
-	void GameLoop();
-	void Move(int*, int*, int, int);
-	void Draw(int*, int*);
+	int isPlay = 0;
+
+	int GameLoop();
 };
 

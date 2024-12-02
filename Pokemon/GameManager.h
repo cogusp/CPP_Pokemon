@@ -1,25 +1,8 @@
 #pragma once
-// 중복 선언 방지를 위한 활성 전처리기 블록
-//#ifndef __IOSTREAM_H__
-//#define __STDIO_H__
-//
-//#include <iostream>
-//
-//
-//#endif
-//
-//#ifndef __WINDOWS_H__
-//#define __WINDOWS_H__
-//
-//#include <windows.h>
-//
-//#endif
-
 
 #include "main.h"
 #include "Player.h"
 #include "Shop.h"
-
 #include "MainMenu.h"
 #include "TutorialPage.h"
 #include "MainPage.h"
@@ -39,8 +22,7 @@ private:
 	};
 
 	//Player* mPlayer;
-	//Shop* mShop;
-	
+	Shop* mShop;
 	MainMenu* mMainMenu;
 	TutorialPage* mTutorial;
 	MainPage* mMain;

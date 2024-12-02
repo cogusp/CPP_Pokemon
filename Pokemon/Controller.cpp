@@ -2,27 +2,14 @@
 
 Controller::Controller()
 {
-	Init();
+	mMap = new Render();
 }
 
-void Controller::Init()
+Controller::~Controller()
 {
-	system("mode con cols = 56 lines = 20 | title 포키몽");
+	delete mMap;
 
-	HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);	// 콘솔 핸들 가져오기
-	CONSOLE_CURSOR_INFO ConsoleCursor;
-	ConsoleCursor.bVisible = 0;		// 커서 숨기기
-	ConsoleCursor.dwSize = 1;
-	SetConsoleCursorInfo(consoleHandle, &ConsoleCursor);
-}
-
-void Controller::Gotoxy(int x, int y)
-{
-	HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);	// 콘솔 핸들 가져오기
-	COORD pos;
-	pos.X = x;
-	pos.Y = y;
-	SetConsoleCursorPosition(consoleHandle, pos);
+	mMap = nullptr;
 }
 
 int Controller::KeyControl()
@@ -58,4 +45,24 @@ int Controller::KeyControl()
 	}
 }
 
-
+void Controller::Move(int* x, int* y)
+{
+	while (true)
+	{
+		switch (KeyControl())	// 키 입력
+		{
+		case UP:
+			y -= 1;	// y축으로 -1 이동
+			break;
+		case DOWN:
+			y += 1;	// y축으로 1 이동
+			break;
+		case RIGHT:
+			x += 1;	// x축으로 1 이동
+			break;
+		case LEFT:
+			x -= 1;	// x축으로 -1 이동
+			break;
+		}
+	}
+}

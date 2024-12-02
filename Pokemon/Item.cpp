@@ -30,7 +30,7 @@ int Item::GetCount() const
     return count;
 }
 
-int Item::SetCount(int count)
+void Item::SetCount(int count)
 {
     this->count = count;
 }

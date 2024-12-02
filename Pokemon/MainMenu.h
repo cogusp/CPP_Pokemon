@@ -1,7 +1,8 @@
 #pragma once
+#include "Render.h"
 #include "Controller.h"
 
-class MainMenu : public Controller
+class MainMenu : public Render, Controller
 {
 private:
 	int x = 24;

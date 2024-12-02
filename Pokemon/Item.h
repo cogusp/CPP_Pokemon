@@ -19,6 +19,6 @@ public:
 	int GetPrice()const;
 	int GetHeal()const;
 	int GetCount()const;
-	int SetCount(int count);
+	void SetCount(int count);
 };
 

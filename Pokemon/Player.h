@@ -13,6 +13,12 @@ public:
 	Player();
 	~Player();
 
+	struct Position
+	{
+		int x;
+		int y;
+	};
+
 	void SetName(const std::string& n);
 	std::string GetName();
 

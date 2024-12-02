@@ -2,6 +2,7 @@
 #include <Windows.h>
 #include <iostream>
 #include <conio.h>
+#include "Render.h"
 
 // 키보드 값 정의
 #define UP 72
@@ -14,11 +15,12 @@
 class Controller
 {
 private:
+	Render* mMap;
 
 public:
 	Controller();
+	~Controller();
 
-	void Init();
-	void Gotoxy(int x, int y);
 	int KeyControl();
+	void Move(int* x, int* y);
 };
