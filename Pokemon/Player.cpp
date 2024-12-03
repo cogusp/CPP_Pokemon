@@ -2,6 +2,7 @@
 
 Player::Player() : name("")
 {
+	coin = 1000;
 }
 
 Player::~Player()
@@ -18,22 +19,32 @@ std::string Player::GetName()
 	return name;
 }
 
-void Player::SellItem(const int itemNum, int& coin)
+void Player::SetCoin(const int& n)
 {
-	//mInven.SellItem(itemNum, coin);
+	coin = n;
 }
 
-void Player::UseItem(const int num)
+int Player::GetCoin()
 {
-	//mInven.UseItem(num);
+	return coin;
+}
+
+void Player::SellItem()
+{
+	SetCoin(mInven.SellItem(coin));
+}
+
+void Player::UseItem()
+{
+	mInven.UseItem();
 }
 
 void Player::AddItemToInven(const Item& item)
 {
-	//mInven.AddItem(item);
+	mInven.AddItem(item);
 }
 
 void Player::ShowIven() const
 {
-	//mInven.ShowInven();
+	mInven.ShowInven();
 }

@@ -8,8 +8,8 @@
 
 struct Position
 {
-	int x = 0;
-	int y = 0;
+	int x = 25;
+	int y = 10;
 };
 
 class Render
@@ -26,8 +26,9 @@ public:
 	void Init();
 	void Gotoxy(int x, int y);
 
-	char GetCurrnetMap();				// 현재 위치 맵
-	Position GetPlayerPos();			// 현재 플레이어 위치
+	char GetCurrnetMap();						// 현재 위치 맵
+
+	Position GetPlayerPos();					// 현재 플레이어 위치 반환
 
 	void DrawPlayer(int x, int y);
 	void DrawMap();

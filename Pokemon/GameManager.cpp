@@ -2,25 +2,23 @@
 
 GameManager::GameManager()
 {
-	//mPlayer = new Player();
+	mPlayer = new Player();
 	mShop = new Shop();
 	mMainMenu = new MainMenu();
 	mTutorial = new TutorialPage();
 	mMain = new MainPage();
-
 	mPage = Pages::MAIN_MENU;
-	//mCoin = 1000;
 }
 
 GameManager::~GameManager()
 {
-	//delete mPlayer;
+	delete mPlayer;
 	delete mShop;
 	delete mMainMenu;
 	delete mTutorial;
 	delete mMain;
 	 
-	//mPlayer = nullptr;
+	mPlayer = nullptr;
 	mShop = nullptr;
 	mMainMenu = nullptr;
 	mTutorial = nullptr;
@@ -38,6 +36,8 @@ void GameManager::StartGame()
 
 	while (isStart)
 	{
+		system("cls");
+
 		switch (mPage)
 		{
 		case Pages::MAIN_MENU:
@@ -49,11 +49,14 @@ void GameManager::StartGame()
 		case Pages::MAIN_PAGE:
 			SetMainPage();
 			break;
-		case Pages::SUB_MENU:
-			SetSubMenu();
-			break;
 		case Pages::SHOP:
 			SetShopPage();
+			break;
+		case Pages::INVENTORY:
+			SetInven();
+			break;
+		case Pages::SELL_INVENTORY:
+			SetSellInven();
 			break;
 		default:
 			std::cout << "위치 에러" << std::endl;
@@ -100,25 +103,35 @@ void GameManager::SetMainMenu()
 	}	 
 }
 
-void GameManager::SetSubMenu()
-{
+void GameManager::SetShopPage()
+{	
+	bool inShop = true;
+
+	while (inShop)
+	{
+		switch (mShop->SelectMenu())
+		{
+		case 1:
+			mShop->BuyItem(mPlayer);
+			break;
+		case 2:
+			SetPage(Pages::SELL_INVENTORY);
+			break;
+		case 3:
+			inShop = false;
+			break;
+		}
+	}
+
+	SetPage(Pages::MAIN_PAGE);
 }
 
-void GameManager::SetShopPage()
+void GameManager::SetInven()
 {
-	//int select;
+	mPlayer->ShowIven();
+}
 
-	//std::cout << "상점" << std::endl;
-	//
-	//// 옮기자
-	//mShop->ShowItems();
-	//std::cout << "구매할 아이템 번호: ";
-	//std::cin >> select;
-
-	//mShop->BuyItem(select - 1, mCoin);
-
-	//SetPage(Pages::INVENTORY);
-
-	system("cls");
-	mShop->ShowItems();
+void GameManager::SetSellInven()
+{
+	mPlayer->SellItem();
 }

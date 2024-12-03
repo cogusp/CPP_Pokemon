@@ -15,20 +15,18 @@ private:
 		MAIN_MENU = 1,
 		TUTORIAL_PAGE,
 		MAIN_PAGE,
-		SUB_MENU,
 		INVENTORY,
 		SHOP,
 		SELL_INVENTORY,
 	};
 
-	//Player* mPlayer;
+	Player* mPlayer;
 	Shop* mShop;
 	MainMenu* mMainMenu;
 	TutorialPage* mTutorial;
 	MainPage* mMain;
 
 	Pages mPage;
-	//int mCoin;
 
 public:
 	GameManager();
@@ -39,6 +37,7 @@ public:
 	void SetTutorialPage();
 	void SetMainPage();
 	void SetMainMenu();
-	void SetSubMenu();
 	void SetShopPage();
+	void SetInven();
+	void SetSellInven();
 };

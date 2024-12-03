@@ -13,7 +13,7 @@ public:
 
 	void ShowInven()const;
 	void AddItem(const Item& item);
-	Item SellItem(const int index, int& coin);
-	void UseItem(const int index);
+	int SellItem(int& coin);
+	void UseItem();
 };
 

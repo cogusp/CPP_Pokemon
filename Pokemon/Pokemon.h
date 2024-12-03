@@ -12,6 +12,7 @@ private:
 	Skill* skill;
 
 public:
+	Pokemon();
 	Pokemon(const std::string& n, const std::string& a, const int h, const int l, Skill* s);
 
 	void Attack();

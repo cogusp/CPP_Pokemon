@@ -1,5 +1,6 @@
 #pragma once
 #include "Item.h"
+#include "Player.h"
 #include <vector>
 
 class Shop
@@ -12,8 +13,9 @@ public:
 	~Shop();
 
 	void SetItems();
+	int SelectMenu();
 	void ShowItems()const;
-	Item* BuyItem(const int index, int& coin);
+	void BuyItem(Player* mPlayer);
 	void AddItem(const Item& item);
 };
 

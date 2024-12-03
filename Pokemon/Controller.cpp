@@ -39,9 +39,9 @@ int Controller::KeyControl()
 			}
 		}
 		else if (c == SPACE)
-		{
 			return SPACE;
-		}
+		else if (c == ESC)
+			return ESC;
 	}
 }
 

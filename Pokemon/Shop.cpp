@@ -13,6 +13,15 @@ void Shop::SetItems()
     AddItem(Item("몬스터볼", "포켓몬 잡는 거", 100, 0, 0));
 }
 
+int Shop::SelectMenu()
+{
+    int select;
+    std::cout << "구매(1), 판매(2), 나가기(3): ";
+    std::cin >> select;
+
+    return select;
+}
+
 void Shop::ShowItems() const
 {
     std::cout << "목록" << std::endl;
@@ -23,17 +32,27 @@ void Shop::ShowItems() const
     }
 }
 
-Item* Shop::BuyItem(const int index, int& coin)
+void Shop::BuyItem(Player* mPlayer)
 {
-    Item& item = items[index];
+    ShowItems();
+
+    std::cout << "구매할 물건 선택: ";
+    int index;
+    std::cin >> index;
+
+    Item& item = items[index - 1];
+
+    int coin = mPlayer->GetCoin();
 
     if (coin < item.GetPrice())
-        return nullptr;
-    
-    coin -= item.GetPrice();
-    std::cout << "구매 성공" << std::endl;
+    {
+        std::cout << "현금 부족" << std::endl;
+        return;
+    }
 
-    return &item;
+    mPlayer->SetCoin(coin -= item.GetPrice());
+    mPlayer->AddItemToInven(item);
+    std::cout << "구매 성공" << std::endl;
 }
 
 void Shop::AddItem(const Item& item)
