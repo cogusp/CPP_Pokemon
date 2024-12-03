@@ -52,16 +52,16 @@ void Controller::Move()
 		switch (KeyControl())	// 키 입력
 		{
 		case UP:
-			mRender->DrawPlayer(0, -1);	// y축으로 -1 이동
+			mRender->DrawMovePlayer(0, -1);	// y축으로 -1 이동
 			break;
 		case DOWN:
-			mRender->DrawPlayer(0, 1);	// y축으로 1 이동
+			mRender->DrawMovePlayer(0, 1);	// y축으로 1 이동
 			break;
 		case RIGHT:
-			mRender->DrawPlayer(1, 0);	// x축으로 1 이동
+			mRender->DrawMovePlayer(1, 0);	// x축으로 1 이동
 			break;
 		case LEFT:
-			mRender->DrawPlayer(-1, 0);	// x축으로 -1 이동
+			mRender->DrawMovePlayer(-1, 0);	// x축으로 -1 이동
 			break;
 		}
 	}

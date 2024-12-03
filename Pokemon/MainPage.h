@@ -16,5 +16,5 @@ public:
 	int isPlay = 0;
 
 	int GameLoop();
+	void SelectSubMenu();
 };
-

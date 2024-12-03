@@ -19,8 +19,15 @@ int Shop::SelectMenu()
     std::cout << "구매(1), 판매(2), 나가기(3): ";
     std::cin >> select;
 
-    return select;
+    if (select == 1 || select == 2 || select == 3)
+    {
+        return select;
+    }
+
+    std::cout << "잘못된 입력입니다. 다시 선택하세요." << std::endl;
+    SelectMenu();
 }
+
 
 void Shop::ShowItems() const
 {

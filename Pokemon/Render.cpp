@@ -25,6 +25,7 @@ char map[MAP_HEIGHT][MAP_WIDTH + 1] = {
 Render::Render()
 {
 	sPosition = new Position();
+	isBuild = ' ';
 	temp = ' ';
 	isFirst = true;
 }
@@ -54,9 +55,9 @@ void Render::Gotoxy(int x, int y)
 	SetConsoleCursorPosition(consoleHandle, pos);
 }
 
-char Render::GetCurrnetMap()
+char Render::GetIsBuild()
 {
-	return map[sPosition->y][sPosition->x];
+	return isBuild;
 }
 
 Position Render::GetPlayerPos()
@@ -64,39 +65,41 @@ Position Render::GetPlayerPos()
 	return *sPosition;
 }
 
-void Render::DrawPlayer(int x, int y)
+void Render::DrawPlayer()
+{
+	// 이동할 곳의 데이터 저장
+	temp = map[sPosition->y][sPosition->x];
+
+	// 플레이어 출력
+	Gotoxy(sPosition->x * 2, sPosition->y);
+	std::cout << "^^";
+}
+
+void Render::DrawMovePlayer(int x, int y)
 {
 	int newX = sPosition->x + x;
 	int newY = sPosition->y + y;
 
-	// 맵을 벗어나지 못하도록 설정
-	if (newY < 0 || newY >= 20 || newX < 0 || newX >= 29) return;
+	// 맵을 벗어나지 않도록 설정
+	if (newY < 0 || newY >= MAP_HEIGHT || newX < 0 || newX >= MAP_WIDTH) 
+		return;
 
-	// 가려는 맵이 그냥 땅인지 검사
-	/*if (map[newY][newX] == 's')
-		return 1;
-	if (map[newY][newX] == 'c')
-		return 2;
-	if (map[newY][newX] == 'd')
-		return 3;*/
-
-	// 이전 맵 다시 그리기
-	if (!isFirst)
+	if (map[newY][newX] == 's')
 	{
-		Gotoxy(sPosition->x * 2, sPosition->y);
-		Draw(temp);
+		isBuild = map[newY][newX];
+		return;
 	}
 
-	// 새로운 위치
-	temp = map[newY][newX];
+	// 이전 맵 다시 그리기
+	Gotoxy(sPosition->x * 2, sPosition->y);
+	Draw(temp);
+
+	// 새로운 위치 설정
 	sPosition->x = newX;
 	sPosition->y = newY;
 
-	// 플레이어 출력
-	Gotoxy(newX * 2, newY);
-	std::cout << "^^";
-
-	isFirst = false;
+	// 플레이어 그리기
+	DrawPlayer();
 }
 
 void Render::DrawMap()
@@ -129,7 +132,7 @@ void Render::Draw(char ch)
 		std::cout << "&&";
 	else if (ch == 'c')
 		std::cout << "  ";
-	else if(ch =='#')
+	else if (ch == '#')
 		std::cout << "■";
 	else if (ch == '~')
 		std::cout << "≈";

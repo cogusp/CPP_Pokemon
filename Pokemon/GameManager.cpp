@@ -1,4 +1,4 @@
-#include "GameManager.h"
+ï»¿#include "GameManager.h"
 
 GameManager::GameManager()
 {
@@ -17,7 +17,7 @@ GameManager::~GameManager()
 	delete mMainMenu;
 	delete mTutorial;
 	delete mMain;
-	 
+
 	mPlayer = nullptr;
 	mShop = nullptr;
 	mMainMenu = nullptr;
@@ -59,7 +59,7 @@ void GameManager::StartGame()
 			SetSellInven();
 			break;
 		default:
-			std::cout << "À§Ä¡ ¿¡·¯" << std::endl;
+			std::cout << "Page Error" << std::endl;
 			isStart = false;
 			break;
 		}
@@ -92,19 +92,16 @@ void GameManager::SetMainMenu()
 		SetPage(Pages::TUTORIAL_PAGE);
 		break;
 	case 1:
-		SetPage(Pages::MAIN_PAGE);
-		break;
-	case 2:
 		exit(0);
 		break;
 	default:
 		std::cout << "SetMainMenu Error" << std::endl;
 		break;
-	}	 
+	}
 }
 
 void GameManager::SetShopPage()
-{	
+{
 	bool inShop = true;
 
 	while (inShop)

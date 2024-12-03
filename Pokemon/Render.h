@@ -17,6 +17,7 @@ class Render
 private:
 	Position* sPosition;
 	bool isFirst;
+	char isBuild;
 	char temp;
 
 public:
@@ -26,11 +27,12 @@ public:
 	void Init();
 	void Gotoxy(int x, int y);
 
-	char GetCurrnetMap();						// 현재 위치 맵
+	char GetIsBuild();							// 다음 위치 맵 반환
 
 	Position GetPlayerPos();					// 현재 플레이어 위치 반환
 
-	void DrawPlayer(int x, int y);
+	void DrawPlayer();
+	void DrawMovePlayer(int x, int y);
 	void DrawMap();
 	void Draw(char ch);
 };

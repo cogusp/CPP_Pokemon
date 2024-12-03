@@ -6,7 +6,6 @@ MainPage::MainPage()
 	mSubMenu = new SubMenu();
 
 	mRender->Init();
-	isPlay = 0;
 }
 
 MainPage::~MainPage()
@@ -20,8 +19,9 @@ MainPage::~MainPage()
 
 int MainPage::GameLoop()
 {
+	isPlay = 0;
 	mRender->DrawMap();
-	mRender->DrawPlayer(0, 0);
+	mRender->DrawPlayer();
 
 	while (isPlay == 0)
 	{
@@ -30,25 +30,53 @@ int MainPage::GameLoop()
 			switch (KeyControl())
 			{
 			case UP:
-				mRender->DrawPlayer(0, -1);
+				mRender->DrawMovePlayer(0, -1);
 				break;
 			case DOWN:
-				mRender->DrawPlayer(0, 1);
+				mRender->DrawMovePlayer(0, 1);
 				break;
 			case RIGHT:
-				mRender->DrawPlayer(1, 0);
+				mRender->DrawMovePlayer(1, 0);
 				break;
 			case LEFT:
-				mRender->DrawPlayer(-1, 0);
+				mRender->DrawMovePlayer(-1, 0);
 				break;
 			case ESC:
-				mSubMenu->SelectMenu();
+				SelectSubMenu();
+				// 메뉴 닫은 후 다시 그리기
+				mRender->DrawMap();
+				mRender->DrawPlayer();
 				break;
 			}
 
-			isPlay = mRender->GetCurrnetMap();
+			// Shop
+			if (mRender->GetIsBuild() == 's')
+			{
+				isPlay = 1;
+			}
 		}
 	}
 
 	return isPlay;
+}
+
+void MainPage::SelectSubMenu()
+{
+	switch (mSubMenu->SelectMenu())
+	{
+	case 0:
+		// 포켓몬
+		break;
+	case 1:
+		// 인벤토리(가방)
+		break;
+	case 2:
+		// 닫다
+		break;
+	case 3:
+		// 끈다
+		exit(0);
+		break;
+	}
+
 }
