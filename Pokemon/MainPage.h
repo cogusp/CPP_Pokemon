@@ -9,6 +9,9 @@ private:
 	Render* mRender;
 	SubMenu* mSubMenu;
 
+	int x;
+	int y;
+
 public:
 	MainPage();
 	~MainPage();
@@ -16,5 +19,6 @@ public:
 	int isPlay = 0;
 
 	int GameLoop();
+	void SetMap();
 	void SelectSubMenu();
 };

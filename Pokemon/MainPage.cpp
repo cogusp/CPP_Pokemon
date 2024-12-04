@@ -6,6 +6,9 @@ MainPage::MainPage()
 	mSubMenu = new SubMenu();
 
 	mRender->Init();
+
+	x = 25;
+	y = 10;
 }
 
 MainPage::~MainPage()
@@ -19,7 +22,11 @@ MainPage::~MainPage()
 
 int MainPage::GameLoop()
 {
+	mRender->SetPlayerPos(x, y);
+	mRender->SetIsBuildZero();
 	isPlay = 0;
+
+	SetMap();
 	mRender->DrawMap();
 	mRender->DrawPlayer();
 
@@ -42,22 +49,54 @@ int MainPage::GameLoop()
 				mRender->DrawMovePlayer(-1, 0);
 				break;
 			case ESC:
-				SelectSubMenu();
-				// 메뉴 닫은 후 다시 그리기
-				mRender->DrawMap();
-				mRender->DrawPlayer();
+				SelectSubMenu();				
 				break;
 			}
 
 			// Shop
 			if (mRender->GetIsBuild() == 's')
-			{
 				isPlay = 1;
-			}
+			// Pokemon Center
+			if (mRender->GetIsBuild() == 'c')
+				isPlay = 2;
+			// Lab
+			if (mRender->GetIsBuild() == 'l')
+				isPlay = 3;
 		}
 	}
 
+	x = mRender->GetPlayerPosX();
+	y = mRender->GetPlayerPosY();
+
 	return isPlay;
+}
+
+void MainPage::SetMap()
+{
+	char map[MAP_HEIGHT][MAP_WIDTH + 1] = {
+		"#######################################################",
+		"#11111111111111111111122222222222222211111111111111111#",
+		"#11111111111111111111222222222222221111111111111111111#",
+		"#11111111111111111122222222222222211111111111111111111#",
+		"#11111111111111112222222222222222211111111111111111111#",
+		"#22222222222222222222222222222222222222222222222222222#",
+		"#22222222222222222222222222222222222222222222222222222#",
+		"#2222bbbbbb2222222222222222222222222222bbbbbbbb2222222#",
+		"#222bbbbbbbb222222222222222222222222222bbbbbbbb2222222#",
+		"#222bbbbbbbb222222222222222222222222222bbbbbbbb2222222#",
+		"#222bbbccbbb222222222222222222222222222bbbssbbb2222222#",
+		"#22222222222222222222222222222222222222222222222222222#",
+		"#22222222222222222222222222222222222222222222222222222#",
+		"#22222222222222222222222222222222222222222222222222222#",
+		"#222222bbbbbb22222222222222222222222222111111111111111#",
+		"#222222bbbbbb22222222222222222222221111111111111111111#",
+		"#222222bbllbb22222222222222222211111111111111111111111#",
+		"#22222222222222222222222222222211111111111111111111111#",
+		"#22222222222222222222222222222211111111111111111111111#",
+		"#######################################################"
+	};
+
+	mRender->SetMap(map);
 }
 
 void MainPage::SelectSubMenu()
@@ -71,12 +110,12 @@ void MainPage::SelectSubMenu()
 		// 인벤토리(가방)
 		break;
 	case 2:
-		// 닫다
+		mRender->DrawMap();
+		mRender->DrawPlayer();
 		break;
 	case 3:
 		// 끈다
 		exit(0);
 		break;
 	}
-
 }

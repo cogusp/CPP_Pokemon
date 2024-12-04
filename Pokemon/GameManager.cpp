@@ -7,6 +7,9 @@ GameManager::GameManager()
 	mMainMenu = new MainMenu();
 	mTutorial = new TutorialPage();
 	mMain = new MainPage();
+	mCenter = new CenterPage();
+	mLab = new LabPage();
+
 	mPage = Pages::MAIN_MENU;
 }
 
@@ -17,12 +20,16 @@ GameManager::~GameManager()
 	delete mMainMenu;
 	delete mTutorial;
 	delete mMain;
+	delete mCenter;
+	delete mLab;
 
 	mPlayer = nullptr;
 	mShop = nullptr;
 	mMainMenu = nullptr;
 	mTutorial = nullptr;
 	mMain = nullptr;
+	mCenter = nullptr;
+	mLab = nullptr;
 }
 
 void GameManager::SetPage(Pages page)
@@ -58,6 +65,12 @@ void GameManager::StartGame()
 		case Pages::SELL_INVENTORY:
 			SetSellInven();
 			break;
+		case Pages::CENTER:
+			SetCenterPage();
+			break;
+		case Pages::LAB:
+			SetLabPage();
+			break;
 		default:
 			std::cout << "Page Error" << std::endl;
 			isStart = false;
@@ -77,9 +90,16 @@ void GameManager::SetMainPage()
 	switch (mMain->GameLoop())
 	{
 	case 1:
+		// Shop
 		SetPage(Pages::SHOP);
 		break;
 	case 2:
+		// Pokemon Center
+		SetPage(Pages::CENTER);
+		break;
+	case 3:
+		// Lab
+		SetPage(Pages::LAB);
 		break;
 	}
 }
@@ -121,6 +141,34 @@ void GameManager::SetShopPage()
 	}
 
 	SetPage(Pages::MAIN_PAGE);
+}
+
+void GameManager::SetCenterPage()
+{
+	switch (mCenter->GameLoop())
+	{
+	case 1:
+		// Door
+		SetPage(Pages::MAIN_PAGE);
+		break;
+	case 2:
+		// NPC
+		break;
+	}
+}
+
+void GameManager::SetLabPage()
+{
+	switch (mLab->GameLoop())
+	{
+	case 1:
+		// Door
+		SetPage(Pages::MAIN_PAGE);
+		break;
+	case 2:
+		// NPC
+		break;
+	}
 }
 
 void GameManager::SetInven()

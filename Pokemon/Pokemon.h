@@ -1,19 +1,24 @@
 #pragma once
 #include "Skill.h"
+#include <vector>
 #include <iostream>
+#include <windows.h>
 
 class Pokemon
 {
 private:
 	std::string name;
-	std::string att;
-	int health;
+	int hp;
 	int level;
-	Skill* skill;
+	std::vector<Skill> skills;
+	
 
 public:
 	Pokemon();
-	Pokemon(const std::string& n, const std::string& a, const int h, const int l, Skill* s);
+	Pokemon(const std::string& n, const int& h, const int& l);
+	
+	void AddSkill(const std::string& n, const int& a);
 
 	void Attack();
+	void ShowPokemon(Pokemon p) const;
 };

@@ -3,84 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:SubMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:SubMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\TutorialPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:TutorialPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\LabPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:LabPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Pokemon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Render.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Render.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\LabPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:LabPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Pokemon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Item.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\TutorialPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:TutorialPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:SubMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\CenterPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:CenterPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\CenterPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:CenterPage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Shop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Shop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:MainPage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Skill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Skill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:SubMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Shop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Shop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Skill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Skill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C7416C2-AD11-42D7-9E11-2F75AC4DBBFE}|Pokemon.vcxproj|solutionrelative:Controller.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,11 +114,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "MainMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.cpp",
+              "RelativeDocumentMoniker": "MainMenu.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.cpp",
+              "RelativeToolTip": "MainMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T10:34:02.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LabPage.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\LabPage.h",
+              "RelativeDocumentMoniker": "LabPage.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\LabPage.h",
+              "RelativeToolTip": "LabPage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T00:41:16.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LabPage.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\LabPage.cpp",
+              "RelativeDocumentMoniker": "LabPage.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\LabPage.cpp",
+              "RelativeToolTip": "LabPage.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T01:26:11.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Shop.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Shop.h",
+              "RelativeDocumentMoniker": "Shop.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Shop.h",
+              "RelativeToolTip": "Shop.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T01:52:30.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Shop.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Shop.cpp",
+              "RelativeDocumentMoniker": "Shop.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Shop.cpp",
+              "RelativeToolTip": "Shop.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T01:52:28.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Skill.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Skill.h",
+              "RelativeDocumentMoniker": "Skill.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Skill.h",
+              "RelativeToolTip": "Skill.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T01:49:01.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Skill.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Skill.cpp",
+              "RelativeDocumentMoniker": "Skill.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Skill.cpp",
+              "RelativeToolTip": "Skill.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T01:48:46.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "SubMenu.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.h",
               "RelativeDocumentMoniker": "SubMenu.h",
@@ -107,177 +222,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SubMenu.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.cpp",
-              "RelativeDocumentMoniker": "SubMenu.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.cpp",
-              "RelativeToolTip": "SubMenu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T00:05:14.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Pokemon.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.h",
-              "RelativeDocumentMoniker": "Pokemon.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.h",
-              "RelativeToolTip": "Pokemon.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T00:05:11.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Pokemon.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.cpp",
-              "RelativeDocumentMoniker": "Pokemon.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.cpp",
-              "RelativeToolTip": "Pokemon.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T00:05:09.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TutorialPage.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\TutorialPage.h",
-              "RelativeDocumentMoniker": "TutorialPage.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\TutorialPage.h",
-              "RelativeToolTip": "TutorialPage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T00:04:59.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TutorialPage.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\TutorialPage.cpp",
-              "RelativeDocumentMoniker": "TutorialPage.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\TutorialPage.cpp",
-              "RelativeToolTip": "TutorialPage.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T00:04:58.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Item.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Item.h",
-              "RelativeDocumentMoniker": "Item.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Item.h",
-              "RelativeToolTip": "Item.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T00:04:54.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Item.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Item.cpp",
-              "RelativeDocumentMoniker": "Item.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Item.cpp",
-              "RelativeToolTip": "Item.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T00:04:53.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainMenu.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.h",
-              "RelativeDocumentMoniker": "MainMenu.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.h",
-              "RelativeToolTip": "MainMenu.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T00:04:52.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainMenu.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.cpp",
-              "RelativeDocumentMoniker": "MainMenu.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.cpp",
-              "RelativeToolTip": "MainMenu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T00:04:50.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainPage.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.h",
-              "RelativeDocumentMoniker": "MainPage.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.h",
-              "RelativeToolTip": "MainPage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T00:04:48.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainPage.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.cpp",
-              "RelativeDocumentMoniker": "MainPage.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.cpp",
-              "RelativeToolTip": "MainPage.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T00:04:47.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.h",
-              "RelativeDocumentMoniker": "Player.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.h",
-              "RelativeToolTip": "Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T00:04:45.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.cpp",
-              "RelativeDocumentMoniker": "Player.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.cpp",
-              "RelativeToolTip": "Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-03T00:04:44.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Render.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Render.h",
               "RelativeDocumentMoniker": "Render.h",
               "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Render.h",
               "RelativeToolTip": "Render.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-03T00:04:42.284Z",
               "EditorCaption": ""
@@ -290,40 +241,196 @@
               "RelativeDocumentMoniker": "Render.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Render.cpp",
               "RelativeToolTip": "Render.cpp",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAKEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-03T00:04:40.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Inventory.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Inventory.cpp",
+              "RelativeDocumentMoniker": "Inventory.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Inventory.cpp",
+              "RelativeToolTip": "Inventory.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T01:07:08.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Inventory.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Inventory.h",
+              "RelativeDocumentMoniker": "Inventory.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Inventory.h",
+              "RelativeToolTip": "Inventory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T01:07:05.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CenterPage.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\CenterPage.h",
+              "RelativeDocumentMoniker": "CenterPage.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\CenterPage.h",
+              "RelativeToolTip": "CenterPage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T00:41:02.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CenterPage.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\CenterPage.cpp",
+              "RelativeDocumentMoniker": "CenterPage.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\CenterPage.cpp",
+              "RelativeToolTip": "CenterPage.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T05:42:47.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SubMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.cpp",
+              "RelativeDocumentMoniker": "SubMenu.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\SubMenu.cpp",
+              "RelativeToolTip": "SubMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T00:05:14.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainPage.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.h",
+              "RelativeDocumentMoniker": "MainPage.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.h",
+              "RelativeToolTip": "MainPage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T00:04:48.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.cpp",
+              "RelativeDocumentMoniker": "MainPage.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainPage.cpp",
+              "RelativeToolTip": "MainPage.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T00:04:47.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pokemon.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.h",
+              "RelativeDocumentMoniker": "Pokemon.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.h",
+              "RelativeToolTip": "Pokemon.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T00:05:11.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pokemon.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.cpp",
+              "RelativeDocumentMoniker": "Pokemon.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Pokemon.cpp",
+              "RelativeToolTip": "Pokemon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T00:05:09.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "MainMenu.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.h",
+              "RelativeDocumentMoniker": "MainMenu.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\MainMenu.h",
+              "RelativeToolTip": "MainMenu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T00:04:52.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T00:04:45.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T00:04:44.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "GameManager.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.h",
               "RelativeDocumentMoniker": "GameManager.h",
               "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.h",
               "RelativeToolTip": "GameManager.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-03T00:04:32.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GameManager.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.cpp",
               "RelativeDocumentMoniker": "GameManager.cpp",
               "ToolTip": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\GameManager.cpp",
               "RelativeToolTip": "GameManager.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAKAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-03T00:04:31.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "Controller.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Controller.h",
               "RelativeDocumentMoniker": "Controller.h",
@@ -331,12 +438,11 @@
               "RelativeToolTip": "Controller.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-29T08:50:01.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T08:50:01.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Controller.cpp",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Visual Studio Scripts\\CPP_Pokemon\\Pokemon\\Controller.cpp",
               "RelativeDocumentMoniker": "Controller.cpp",

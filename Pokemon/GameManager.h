@@ -6,6 +6,8 @@
 #include "MainMenu.h"
 #include "TutorialPage.h"
 #include "MainPage.h"
+#include "LabPage.h"
+#include "CenterPage.h"
 
 class GameManager
 {
@@ -17,6 +19,8 @@ private:
 		MAIN_PAGE,
 		INVENTORY,
 		SHOP,
+		CENTER, 
+		LAB,
 		SELL_INVENTORY,
 	};
 
@@ -25,6 +29,8 @@ private:
 	MainMenu* mMainMenu;
 	TutorialPage* mTutorial;
 	MainPage* mMain;
+	CenterPage* mCenter;
+	LabPage* mLab;
 
 	Pages mPage;
 
@@ -38,6 +44,8 @@ public:
 	void SetMainPage();
 	void SetMainMenu();
 	void SetShopPage();
+	void SetCenterPage();
+	void SetLabPage();
 	void SetInven();
 	void SetSellInven();
 };
