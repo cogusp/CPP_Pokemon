@@ -2,6 +2,8 @@
 
 #include "main.h"
 #include "Player.h"
+#include "NPC.h"
+
 #include "Shop.h"
 #include "MainMenu.h"
 #include "TutorialPage.h"
@@ -22,9 +24,12 @@ private:
 		CENTER, 
 		LAB,
 		SELL_INVENTORY,
+		NPC
 	};
 
 	Player* mPlayer;
+	NPC* mNpc;
+
 	Shop* mShop;
 	MainMenu* mMainMenu;
 	TutorialPage* mTutorial;
@@ -40,12 +45,15 @@ public:
 
 	void SetPage(Pages page);
 	void StartGame();
+
 	void SetTutorialPage();
 	void SetMainPage();
 	void SetMainMenu();
 	void SetShopPage();
 	void SetCenterPage();
 	void SetLabPage();
+	void SetNpcPage();
+
 	void SetInven();
 	void SetSellInven();
 };

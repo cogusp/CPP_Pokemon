@@ -3,6 +3,8 @@
 GameManager::GameManager()
 {
 	mPlayer = new Player();
+	mNpc = new NPC();
+
 	mShop = new Shop();
 	mMainMenu = new MainMenu();
 	mTutorial = new TutorialPage();
@@ -16,6 +18,8 @@ GameManager::GameManager()
 GameManager::~GameManager()
 {
 	delete mPlayer;
+	delete mNpc;
+
 	delete mShop;
 	delete mMainMenu;
 	delete mTutorial;
@@ -24,6 +28,8 @@ GameManager::~GameManager()
 	delete mLab;
 
 	mPlayer = nullptr;
+	mNpc = nullptr;
+
 	mShop = nullptr;
 	mMainMenu = nullptr;
 	mTutorial = nullptr;
@@ -71,6 +77,9 @@ void GameManager::StartGame()
 		case Pages::LAB:
 			SetLabPage();
 			break;
+		case Pages::NPC:
+			SetNpcPage();
+			break;
 		default:
 			std::cout << "Page Error" << std::endl;
 			isStart = false;
@@ -81,13 +90,14 @@ void GameManager::StartGame()
 
 void GameManager::SetTutorialPage()
 {
+	mTutorial->SetPlayer(mPlayer);
 	mTutorial->ShowGameInfo();
 	SetPage(Pages::MAIN_PAGE);
 }
 
 void GameManager::SetMainPage()
 {
-	switch (mMain->GameLoop())
+	switch (mMain->GameLoop(mPlayer))
 	{
 	case 1:
 		// Shop
@@ -100,6 +110,9 @@ void GameManager::SetMainPage()
 	case 3:
 		// Lab
 		SetPage(Pages::LAB);
+		break;
+	case 4:
+		SetPage(Pages::NPC);
 		break;
 	}
 }
@@ -133,6 +146,7 @@ void GameManager::SetShopPage()
 			break;
 		case 2:
 			SetPage(Pages::SELL_INVENTORY);
+			StartGame();
 			break;
 		case 3:
 			inShop = false;
@@ -159,16 +173,22 @@ void GameManager::SetCenterPage()
 
 void GameManager::SetLabPage()
 {
+	mLab->SetPlayer(mPlayer);
+	mLab->SetNPC(mNpc);
+
 	switch (mLab->GameLoop())
 	{
 	case 1:
 		// Door
 		SetPage(Pages::MAIN_PAGE);
 		break;
-	case 2:
-		// NPC
-		break;
 	}
+}
+
+void GameManager::SetNpcPage()
+{
+	mNpc->Script(mPlayer);
+	SetPage(Pages::MAIN_PAGE);
 }
 
 void GameManager::SetInven()
@@ -179,4 +199,5 @@ void GameManager::SetInven()
 void GameManager::SetSellInven()
 {
 	mPlayer->SellItem();
+	SetPage(Pages::SHOP);
 }

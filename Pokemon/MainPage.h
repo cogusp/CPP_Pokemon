@@ -2,6 +2,7 @@
 #include "Render.h"
 #include "Controller.h"
 #include "SubMenu.h"
+#include "Player.h"
 
 class MainPage : public Controller
 {
@@ -18,7 +19,8 @@ public:
 
 	int isPlay = 0;
 
-	int GameLoop();
+	int GameLoop(Player* p);
+	void SelectSubMenu(Player* p);
+
 	void SetMap();
-	void SelectSubMenu();
 };

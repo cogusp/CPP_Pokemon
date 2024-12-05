@@ -20,6 +20,16 @@ public:
 	void SetCoin(const int& n);
 	int GetCoin();
 
+	void SetPokemon(Pokemon &p);
+	std::string GetPName();
+	void SetHP(int h);
+	int GetPHP();
+	int GetPLevel();
+	std::string GetPSkill1();
+	int GetPAtk1();
+	std::string GetPSkill2();
+	int GetPAtk2();
+
 	void SellItem();
 	void UseItem();
 	void AddItemToInven(const Item& item);

@@ -9,8 +9,9 @@ Shop::~Shop() {}
 
 void Shop::SetItems()
 {
-    // json or csv file
-    AddItem(Item("몬스터볼", "포켓몬 잡는 거", 100, 0, 0));
+    AddItem(Item("몬스터볼", "포켓몬을 잡을 수 있는 도구", 10, 0, 0));
+    AddItem(Item("상처약", "다친 포켓몬을 치료할 수 있는 약", 10, 30, 0));
+    AddItem(Item("오랭열매", "달달한 열매", 7, 10, 0));
 }
 
 int Shop::SelectMenu()
@@ -43,6 +44,7 @@ void Shop::BuyItem(Player* mPlayer)
 {
     ShowItems();
 
+    std::cout << "가진 돈: " << mPlayer->GetCoin() << std::endl;
     std::cout << "구매할 물건 선택: ";
     int index;
     std::cin >> index;
@@ -58,6 +60,7 @@ void Shop::BuyItem(Player* mPlayer)
     }
 
     mPlayer->SetCoin(coin -= item.GetPrice());
+    item.SetCount(item.GetCount() + 1);
     mPlayer->AddItemToInven(item);
     std::cout << "구매 성공" << std::endl;
 }

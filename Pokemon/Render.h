@@ -38,7 +38,13 @@ public:
 
 	void DrawPlayer();
 	void DrawMovePlayer(int x, int y);
+
 	void DrawMap();
+
 	void DrawPokemon();
+	void DrawL();
+	void DrawG();
+	void DrawP();
+
 	void Draw(char ch);
 };

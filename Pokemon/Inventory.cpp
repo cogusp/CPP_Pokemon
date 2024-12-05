@@ -51,14 +51,14 @@ int Inventory::SellItem(int& coin)
     int index;
     std::cin >> index;
 
+    std::cout << "성공적으로 판매했습니다!" << std::endl;
+
     if (items[index - 1].GetCount() - 1 == 0)
-        items.erase(items.begin() + (index - 1));
+        items.erase(items.begin() + index);
     else
         items[index - 1].SetCount(items[index - 1].GetCount() - 1);
 
-    std::cout << "성공적으로 판매했습니다!" << std::endl;
-
-    return coin += items[index - 1].GetPrice();
+    return items[index - 1].GetPrice();
 }
 
 void Inventory::UseItem()

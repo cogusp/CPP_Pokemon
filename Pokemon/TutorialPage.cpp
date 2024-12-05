@@ -2,21 +2,23 @@
 
 TutorialPage::TutorialPage()
 {
-	mPlayer = new Player();
 	mController = new Controller();
 }
 
 TutorialPage::~TutorialPage()
 {
-	delete mPlayer;
 	delete mController;
-	mPlayer = nullptr;
 	mController = nullptr;
+}
+
+void TutorialPage::SetPlayer(Player* p)
+{
+	mPlayer = p;
 }
 
 void TutorialPage::InputPlayerInfo()
 {
-	std::cout << "너의 이름은?" << std::endl;
+	std::cout << std::endl << "너의 이름은?\t";
 
 	std::string name;
 	std::cin >> name;
@@ -26,12 +28,18 @@ void TutorialPage::InputPlayerInfo()
 
 void TutorialPage::ShowGameInfo()
 {
-	std::cout << "하이? 난 오박사." << std::endl;
+	std::cout << "난 오박사라고 하네." << std::endl;
+	Sleep(1000);
+	std::cout << "우선 자네의 이름을 알려주게나!" << std::endl;
+	Sleep(1000);
 
 	InputPlayerInfo();
 
-	std::cout << mPlayer->GetName() << "... 좋은 이름이군!" << std::endl;
-	std::cout << "행운을 비네!" << std::endl;
+	std::cout << std::endl << mPlayer->GetName() << "... 좋은 이름이군!" << std::endl;
+	
+	Sleep(1000);
+	std::cout << "포켓몬스터의 세계로!" << std::endl;
+	std::cout << "레츠 고-!" << std::endl;
 
 	Sleep(2000);
 }

@@ -5,7 +5,7 @@
 class MainMenu : public Render, Controller
 {
 private:
-	int x = 24;
+	int x = 40;
 	int y = 12;
 
 public:

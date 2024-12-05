@@ -13,6 +13,7 @@ public:
 	TutorialPage();
 	~TutorialPage();
 
+	void SetPlayer(Player* p);
 	void InputPlayerInfo();
 	void ShowGameInfo();
 };
