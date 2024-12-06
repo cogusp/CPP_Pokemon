@@ -78,6 +78,11 @@ int Player::GetPAtk2()
 	return mPokemon.GetAtk2();
 }
 
+int Player::GetSaveHP()
+{
+	return mPokemon.GetSaveHP();
+}
+
 void Player::SellItem()
 {
 	if (mInven.SellItem(coin) == 0)

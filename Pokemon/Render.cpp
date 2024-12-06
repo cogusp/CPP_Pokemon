@@ -109,11 +109,11 @@ void Render::DrawMovePlayer(int x, int y)
 	int newY = sPosition->y + y;
 
 	// 맵을 벗어나지 않도록 설정
-	if (newY < 0 || newY >= MAP_HEIGHT || newX < 0 || newX >= MAP_WIDTH || 
+	if (newY < 0 || newY >= MAP_HEIGHT || newX < 0 || newX >= MAP_WIDTH ||
 		map[newY][newX] == '#' || map[newY][newX] == 'b')
 		return;
 
-	if (map[newY][newX] == 's' || map[newY][newX] == 'c' || 
+	if (map[newY][newX] == 's' || map[newY][newX] == 'c' ||
 		map[newY][newX] == 'l' || map[newY][newX] == 'd' ||
 		map[newY][newX] == 'n' || map[newY][newX] == 'L' ||
 		map[newY][newX] == 'G' || map[newY][newX] == 'P')
@@ -122,16 +122,18 @@ void Render::DrawMovePlayer(int x, int y)
 		return;
 	}
 
-	// 이전 맵 다시 그리기
+	// 이전 위치를 맵 데이터로 복구
 	Gotoxy(sPosition->x * 2, sPosition->y);
-	Draw(temp);
+	Draw(map[sPosition->y][sPosition->x]);
 
 	// 새로운 위치 설정
 	SetPlayerPos(newX, newY);
 
-	// 플레이어 그리기
+	// 새 위치에 플레이어 그리기
 	DrawPlayer();
 }
+
+
 
 void Render::DrawMap()
 {

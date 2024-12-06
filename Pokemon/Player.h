@@ -29,6 +29,7 @@ public:
 	int GetPAtk1();
 	std::string GetPSkill2();
 	int GetPAtk2();
+	int GetSaveHP();
 
 	void SellItem();
 	void UseItem();

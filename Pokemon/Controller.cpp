@@ -26,16 +26,12 @@ int Controller::KeyControl()
 			{
 			case UP:
 				return UP;
-				break;
 			case DOWN:
 				return DOWN;
-				break;
 			case LEFT:
 				return LEFT;
-				break;
 			case RIGHT:
 				return RIGHT;
-				break;
 			}
 		}
 		else if (c == SPACE)

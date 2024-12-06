@@ -15,5 +15,6 @@ public:
 	void AddItem(const Item& item);
 	int SellItem(int& coin);
 	void UseItem();
+	//void SubMenu();
 };
 

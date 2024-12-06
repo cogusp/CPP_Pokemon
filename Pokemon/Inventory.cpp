@@ -63,8 +63,6 @@ int Inventory::SellItem(int& coin)
 
 void Inventory::UseItem()
 {
-    ShowInven();
-
     std::cout << "쓸 물건 번호 선택: ";
     int index;
     std::cin >> index;
@@ -78,3 +76,18 @@ void Inventory::UseItem()
 
     // heal up
 }
+
+//void Inventory::SubMenu()
+//{
+//    ShowInven();
+//
+//    std::cout << "사용하시겠습니까?" << std::endl;
+//    std::cout << "1. 예 2. 아니오" << std::endl;
+//    std::cout << "입력 >> ";
+//
+//    int select;
+//    std::cin >> select;
+//
+//    if (select == 1)
+//        UseItem;
+//}

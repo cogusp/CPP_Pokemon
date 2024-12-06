@@ -159,14 +159,11 @@ void GameManager::SetShopPage()
 
 void GameManager::SetCenterPage()
 {
-	switch (mCenter->GameLoop())
+	switch (mCenter->GameLoop(mPlayer))
 	{
 	case 1:
 		// Door
 		SetPage(Pages::MAIN_PAGE);
-		break;
-	case 2:
-		// NPC
 		break;
 	}
 }

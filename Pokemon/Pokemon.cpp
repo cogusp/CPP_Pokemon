@@ -7,12 +7,8 @@ Pokemon::Pokemon()
 Pokemon::Pokemon(const std::string& n, int h, int l, const std::string& s1, const int& a1, const std::string& s2, const int& a2)
 	: name(n), hp(h), level(l), skill1(s1), atk1(a1), skill2(s2), atk2(a2)
 {
+	saveHP = h;
 }
-
-//void Pokemon::AddSkill(const std::string& n, const int& a)
-//{
-//	skills.push_back(Skill(n, a));
-//}
 
 std::string Pokemon::GetName()const
 {
@@ -74,6 +70,11 @@ int Pokemon::GetAtk1()const
 int Pokemon::GetAtk2()const
 {
 	return atk2;
+}
+
+int Pokemon::GetSaveHP() const
+{
+	return saveHP;
 }
 
 void Pokemon::Attack(int skill)

@@ -5,7 +5,7 @@ void MainMenu::MenuList()
 	Gotoxy(x - 2, y);
 	std::cout << "> 새로운 모험을 시작한다" << std::endl;
 	Gotoxy(x, y + 1);
-	std::cout << "나간다" << std::endl;
+	std::cout << "종료" << std::endl;
 }
 
 int MainMenu::SelectMenu()

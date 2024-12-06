@@ -11,14 +11,18 @@ private:
 	Render* mRender;
 	SubMenu* mSubMenu;
 
+	int x;
+	int y;
+
 public:
 	CenterPage();
 	~CenterPage();
 
 	int isPlay = 0;
 
-	int GameLoop();
+	int GameLoop(Player* p);
 	void SetMap();
 	void SelectSubMenu();
+	void Heal(Player* p);
 };
 
